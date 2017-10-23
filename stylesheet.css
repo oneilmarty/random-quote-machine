@@ -1,0 +1,36 @@
+body {
+	background-color: orange;
+	text-align: center;
+	color: white;
+}
+
+.content-box {
+	margin: auto;
+	margin-top: 100px;
+	background-color: white;
+	width: 33%;
+	padding: 50px;
+	border: 2px solid orange;
+	border-radius: 5px;
+	color: orange;
+}
+
+button {
+	background-color: orange;
+	border: 2px solid orange;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+}
+
+.f-size-30 {
+	font-size: 30px;
+}
+
+.right {
+	text-align: right;
+}
+
+p {
+	margin: 30px;
+}
