@@ -1,5 +1,5 @@
 body {
-	background-color: orange;
+/*	background-color: orange;*/
 	text-align: center;
 	color: white;
 }
@@ -10,14 +10,13 @@ body {
 	background-color: white;
 	width: 33%;
 	padding: 50px;
-	border: 2px solid orange;
+/*	border: 2px solid orange;*/
 	border-radius: 5px;
-	color: orange;
+/*	color: orange;*/
 }
 
 button {
-	background-color: orange;
-	border: 2px solid orange;
+	border: 2px solid white;
 	border-radius: 5px;
 	padding: 10px;
 	color: white;
