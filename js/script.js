@@ -77,19 +77,15 @@ var quotes = [
 ];
 
 var rand = quotes[Math.floor(Math.random() * quotes.length)];
-var randCol = Math.floor(Math.random() * 9);
-var randCol2 = Math.floor(Math.random() * 9);
-var randCol3 = Math.floor(Math.random() * 9);
-var randCol4 = Math.floor(Math.random() * 9);
-var randCol5 = Math.floor(Math.random() * 9);
-var randCol6 = Math.floor(Math.random() * 9);
+var randCol = Math.floor(Math.random() * 900000) + 100000;
+
 
 function refreshPage() {
 	window.location.reload();
 }
 
-document.body.style.backgroundColor = "#" + randCol + randCol2 + randCol3 + randCol4 + randCol5 + randCol6;
-document.body.style.color = "#" + randCol + randCol2 + randCol3 + randCol4 + randCol5 + randCol6;
-document.querySelector("#q-btn").style.backgroundColor = "#" + randCol + randCol2 + randCol3 + randCol4 + randCol5 + randCol6;
+document.body.style.backgroundColor = "#" + randCol;
+document.body.style.color = "#" + randCol;
+document.querySelector("#q-btn").style.backgroundColor = "#" + randCol;
 document.querySelector("#quote").innerHTML = "\"" + rand["quote"] + "\"";
 document.querySelector("#person").innerHTML = "-" + rand["person"] + " in " + rand["movie"];
