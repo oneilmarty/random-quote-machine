@@ -1,8 +1,19 @@
-body {
-/*	background-color: orange;*/
-	text-align: center;
+a { color: white; }
+
+body { 
 	color: white;
+	text-align: center;
 }
+
+button {
+	border: 2px solid white;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+}
+
+p { margin: 30px; }
 
 #content-box {
 	margin: auto;
@@ -10,39 +21,17 @@ body {
 	background-color: white;
 	width: 33%;
 	padding: 50px;
-/*	border: 2px solid orange;*/
 	border-radius: 5px;
-/*	color: orange;*/
 }
 
-button {
-	border: 2px solid white;
-	border-radius: 5px;
-	padding: 10px;
-	color: white;
-	cursor:pointer;
-}
-
-a {
-	color: white;
-}
-
-#quote {
-	font-size: 30px;
-}
-
-#person {
-	text-align: right;
-}
-
-p {
-	margin: 30px;
-}
+#person { text-align: right; }
 
 #q-btn {
 	float: right;
 	margin-right: 30px;
 }
+
+#quote { font-size: 30px; }
 
 #t-btn {
 	float: left;
