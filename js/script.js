@@ -89,3 +89,6 @@ document.body.style.color = "#" + randCol;
 document.querySelector("#q-btn").style.backgroundColor = "#" + randCol;
 document.querySelector("#quote").innerHTML = "\"" + rand["quote"] + "\"";
 document.querySelector("#person").innerHTML = "-" + rand["person"] + " in " + rand["movie"];
+
+document.querySelector("#t-link").innerHTML = "<a class='twitter-share-button' href='https://twitter.com/intent/tweet?text=" + rand["quote"] + " -" + rand["person"] + " in " + rand["movie"] + "' data-size='large'><button id='t-btn'>Tweet</button></a>";
+document.querySelector("#t-btn").style.backgroundColor = "#00aced";
